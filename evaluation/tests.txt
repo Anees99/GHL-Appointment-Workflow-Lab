@@ -1,0 +1,25 @@
+test_after_appointment_no_reminder (test_workflow.WorkflowTests.test_after_appointment_no_reminder) ... ok
+test_booking (test_workflow.WorkflowTests.test_booking) ... ok
+test_cancel (test_workflow.WorkflowTests.test_cancel) ... ok
+test_due_preview (test_workflow.WorkflowTests.test_due_preview) ... ok
+test_duplicate (test_workflow.WorkflowTests.test_duplicate) ... ok
+test_location_isolation (test_workflow.WorkflowTests.test_location_isolation) ... ok
+test_no_catchup_late_booking (test_workflow.WorkflowTests.test_no_catchup_late_booking) ... ok
+test_no_consent (test_workflow.WorkflowTests.test_no_consent) ... ok
+test_optout_all_appointments (test_workflow.WorkflowTests.test_optout_all_appointments) ... ok
+test_optout_blocks_reschedule (test_workflow.WorkflowTests.test_optout_blocks_reschedule) ... ok
+test_past_booking (test_workflow.WorkflowTests.test_past_booking) ... ok
+test_persistence (test_workflow.WorkflowTests.test_persistence) ... ok
+test_reschedule_cancels_previous (test_workflow.WorkflowTests.test_reschedule_cancels_previous) ... ok
+test_reused_id_conflict (test_workflow.WorkflowTests.test_reused_id_conflict) ... ok
+test_stale_event (test_workflow.WorkflowTests.test_stale_event) ... ok
+test_string_consent_rejected (test_workflow.WorkflowTests.test_string_consent_rejected) ... ok
+test_terminal_state (test_workflow.WorkflowTests.test_terminal_state) ... ok
+test_timezone_required (test_workflow.WorkflowTests.test_timezone_required) ... ok
+test_transaction_rollback (test_workflow.WorkflowTests.test_transaction_rollback) ... ok
+test_unknown_appointment_transition (test_workflow.WorkflowTests.test_unknown_appointment_transition) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.298s
+
+OK

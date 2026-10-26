@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "evt-1",
+    "location_id": "demo-location",
+    "contact_id": "demo-contact",
+    "appointment_id": "demo-appointment",
+    "sequence": 1,
+    "kind": "booked",
+    "occurred_at": "2026-10-26T09:00:00+05:00",
+    "start_at": "2026-10-27T11:00:00+05:00",
+    "consent": true
+  },
+  {
+    "event_id": "evt-2",
+    "location_id": "demo-location",
+    "contact_id": "demo-contact",
+    "appointment_id": "demo-appointment",
+    "sequence": 2,
+    "kind": "rescheduled",
+    "occurred_at": "2026-10-26T09:00:00+05:00",
+    "start_at": "2026-10-27T13:00:00+05:00",
+    "consent": true
+  },
+  {
+    "event_id": "evt-2",
+    "location_id": "demo-location",
+    "contact_id": "demo-contact",
+    "appointment_id": "demo-appointment",
+    "sequence": 2,
+    "kind": "rescheduled",
+    "occurred_at": "2026-10-26T09:00:00+05:00",
+    "start_at": "2026-10-27T13:00:00+05:00",
+    "consent": true
+  },
+  {
+    "event_id": "evt-3",
+    "location_id": "demo-location",
+    "contact_id": "demo-contact",
+    "appointment_id": "demo-appointment",
+    "sequence": 3,
+    "kind": "opted_out",
+    "occurred_at": "2026-10-26T09:00:00+05:00"
+  }
+]

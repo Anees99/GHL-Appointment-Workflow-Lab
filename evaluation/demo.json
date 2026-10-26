@@ -1,0 +1,74 @@
+{
+  "fixture_kind": "synthetic",
+  "outcomes": [
+    {
+      "outcome": "applied"
+    },
+    {
+      "outcome": "applied"
+    },
+    {
+      "outcome": "duplicate",
+      "original_outcome": "applied"
+    },
+    {
+      "outcome": "suppressed"
+    }
+  ],
+  "snapshot": {
+    "appointments": [
+      {
+        "location": "demo-location",
+        "id": "demo-appointment",
+        "contact": "demo-contact",
+        "sequence": 2,
+        "state": "rescheduled",
+        "start_at": "2026-10-27T13:00:00+05:00"
+      }
+    ],
+    "reminders": [
+      {
+        "location": "demo-location",
+        "appointment": "demo-appointment",
+        "contact": "demo-contact",
+        "sequence": 1,
+        "due_at": "2026-10-27T05:00:00+00:00",
+        "state": "cancelled"
+      },
+      {
+        "location": "demo-location",
+        "appointment": "demo-appointment",
+        "contact": "demo-contact",
+        "sequence": 2,
+        "due_at": "2026-10-27T07:00:00+00:00",
+        "state": "cancelled"
+      }
+    ],
+    "suppressions": [
+      {
+        "location": "demo-location",
+        "contact": "demo-contact"
+      }
+    ],
+    "events": [
+      {
+        "location": "demo-location",
+        "event_id": "evt-1",
+        "digest": "f336dd0b72b723c38b4efcac6dadf1308426b4365f8e065aac0f2c131b8d9b40",
+        "outcome": "applied"
+      },
+      {
+        "location": "demo-location",
+        "event_id": "evt-2",
+        "digest": "090f5e7f8de54844dd4c22923d114a8b388f2f5e81b59ba0cd02b7a92b45c91b",
+        "outcome": "applied"
+      },
+      {
+        "location": "demo-location",
+        "event_id": "evt-3",
+        "digest": "95bc2b195b3a91c34dff9873f92b4a701239a7366e319505879764e5cc131693",
+        "outcome": "suppressed"
+      }
+    ]
+  }
+}
